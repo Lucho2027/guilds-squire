@@ -1,5 +1,5 @@
 <template>
-  <div>
+
 <div class="flex flex-col min-h-dvh">
   <header class="px-4 lg:px-6 h-14 flex items-center">
     <a class="flex items-center justify-center pt-2" href="#">
@@ -33,7 +33,12 @@
                 href="#"
                 class="btn btn-lg btn-primary">
                 Let's get you logged In
-              </a>   
+              </a>  
+              <NuxtLink
+                to="/calendar"
+                class="btn btn-lg btn-primary">
+                Let's get you logged In
+              </NuxtLink>    
             </div>
           </div>
           <img
@@ -51,5 +56,5 @@
     <p class="text-xs text-muted-foreground">© Guild's Squire All rights reserved.</p>
   </footer>
 </div>
-  </div>
+
 </template>
