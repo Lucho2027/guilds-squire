@@ -9,4 +9,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  runtimeConfig: {
+      bnetKey: '',
+      bnetClientId:'',
+    public:{}
+  },
 });

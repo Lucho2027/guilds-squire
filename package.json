@@ -11,9 +11,12 @@
   },
   "dependencies": {
     "nuxt": "^3.12.4",
+    "passport": "^0.7.0",
+    "passport-bnet": "^2.0.0",
     "vue": "latest"
   },
   "devDependencies": {
+    "@types/passport-bnet": "^2.0.5",
     "autoprefixer": "^10.4.20",
     "daisyui": "^4.12.10",
     "postcss": "^8.4.41",
