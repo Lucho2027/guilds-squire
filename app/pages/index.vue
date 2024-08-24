@@ -6,7 +6,7 @@ const { loggedIn } = useUserSession()
   <UCard>
     <template #header>
       <h3 class="text-lg font-semibold leading-6">
-        Todo List
+        Guild's Squire
       </h3>
       <UButton
         v-if="!loggedIn"
