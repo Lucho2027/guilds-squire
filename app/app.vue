@@ -19,7 +19,7 @@ useHead({
 
 useSeoMeta({
   viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
-  title: 'Atidone',
+  title: 'Guild\'s Squire',
   description:
     'A Nuxt demo hosted with edge-side rendering, authentication and queyring a Cloudflare D1 database',
   ogImage: '/social-image.png',
@@ -44,20 +44,13 @@ useSeoMeta({
 
     <footer class="text-center mt-2">
       <NuxtLink
-        href="https://github.com/atinux/atidone"
+        href="https://github.com/lucho2027/guilds-squire"
         target="_blank"
         class="text-sm text-gray-500 hover:text-gray-700"
       >
         GitHub
       </NuxtLink>
       ·
-      <NuxtLink
-        href="https://twitter.com/atinux"
-        target="_blank"
-        class="text-sm text-gray-500 hover:text-gray-700"
-      >
-        Twitter
-      </NuxtLink>
     </footer>
   </UContainer>
   <UNotifications />

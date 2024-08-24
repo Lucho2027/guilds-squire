@@ -25,7 +25,7 @@ const { loggedIn } = useUserSession()
       />
     </template>
     <p class="font-medium">
-      Welcome to Atidone.
+      Welcome to Guild's Squire.
     </p>
     <p>
       A <a
@@ -55,8 +55,8 @@ const { loggedIn } = useUserSession()
     </p>
     <hr class="dark:border-gray-700">
     <p class="text-sm text-gray-700 dark:text-gray-300 italic">
-      No personal informations regarding your GitHub account are stored in database.<br>
-      We store only the todos created linked with your GitHub ID.
+      No personal informations regarding your Battlenet account are stored in database.<br>
+      We store only the things created linked with your GitHub ID.
     </p>
   </UCard>
 </template>
