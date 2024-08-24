@@ -10,9 +10,9 @@ const { loggedIn } = useUserSession()
       </h3>
       <UButton
         v-if="!loggedIn"
-        to="/api/auth/github"
-        icon="i-simple-icons-github"
-        label="Login with GitHub"
+        to="/api/auth/battledotnet"
+        icon="i-simple-icons-battledotnet"
+        label="Login with Battlenet"
         color="black"
         external
       />
